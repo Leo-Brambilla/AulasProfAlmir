@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wiki</title>
+</head>
+
+<body>
+    <header>
+        <!--Cabeçalho, introdução do conteúdo, menus -->
+        <h1>Estudo do HTML</h1>
+        <h3>Conceitos introdutórios da linguagem</h3>
+        <nav>
+            <!--Agrupa linkis de navegação-->
+            <ol type="a">
+                <!--Lista ordenada-->
+                <li><a href="#intro">Introdução</a></li>
+                <!--Repesenta o item da lista-->
+                <li></li>
+                <li></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <!--Conteúdo Pincipal-->
+        <section>
+            <!--Usada para destatar tópicos/conteúdo-->
+            <h3>Uso de tags</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cumque illo vitae doloribus dolorum
+                explicabo nihil id repudiandae similique doloremque quos illum numquam, aperiam vel iure dignissimos
+                quis voluptates reprehenderit.</p>
+
+        </section>
+        <section>
+            <h3>Uso de tabelas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cumque illo vitae doloribus dolorum
+                explicabo nihil id repudiandae similique doloremque quos illum numquam, aperiam vel iure dignissimos
+                quis voluptates reprehenderit.</p>
+        </section>
+        <section>
+            <table border="1" cellpadding="3" style="border-collapse: collapse">
+                <thead>
+                    <!--Cabeçalho da tabela-->
+                    <tr>
+                        <!--table Row-->
+                    <tr>
+                        <th colspan="4">Usuários do Sistema</th><!--colspan Mescla células na horizontal-->
+                    </tr>
+                    <th>Tipo</th>
+                    <th>Nome</th>
+                    <!--Conteúdo da tabela, table header-->
+                    <th>CPF</th>
+                    <th>Data Nasc.</th>
+                <tbody>
+                    <!--Corpo da tabela-->
+
+                    <tr>
+                        <td rowspan="2">Funcionário</td>
+                        <!--rowspan mescla as células na vertical-->
+                        <td>José Almir</td>
+                        <!--Table data-->
+                        <td>423.025.332-22</td>
+                        <td>26/06/1999</td>
+                    </tr>
+                    <tr>
+
+                        <td>Renato Pereira</td>
+                        <!--Table data-->
+                        <td>452.975.868-53</td>
+                        <td>18/07/2003</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Cliente</td>
+                        <td>Maria do Bairro</td>
+                        <!--Table data-->
+                        <td>023.333.568-07</td>
+                        <td>01/10/1976</td>
+                    </tr>
+                    <tr>
+                        <td>Maria Mercêdez</td>
+                        <!--Table data-->
+                        <td>020.320.555-07</td>
+                        <td>01/10/1970</td>
+                    </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" align="center">Atualizado em 19/09/2022</td>
+                    </tr>
+                </tfoot>
+                </tbody>
+                </tr>
+                </thead>
+            </table>
+        </section>
+    </main>
+    <hr />
+    <!--Horizontal Rule-->
+    <table border="1" cellpadding="4" style="border-collapse: collapse;">
+        <tr>
+            <td colspan="2">celula 1-1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th>celula 2-1</th>
+            <th>celula 2-3</th>
+            <th>celula 3</th>            
+        </tr>
+    </table>
+    <hr />
+    <footer>
+        <!--Representa o rodapé-->
+        &copy;
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+        SoulCode Academy
+    </footer>
+
+</body>
+
+</html>

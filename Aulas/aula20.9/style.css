@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(160deg, #30cfd0 5%, #c0be2b 50%);
+    padding: 0;
+    margin: 0;
+    font-family: caveat;        
+    background-size: 400% 400%;
+    animation: backgroundTransition 1s ease-in-out infinite;    
+    
+}
+.corpo{
+    text-align: center;
+}

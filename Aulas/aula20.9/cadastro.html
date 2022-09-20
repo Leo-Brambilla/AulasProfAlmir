@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="corpo">
+    <header class="cabecalho">
+        <img src="../img/logoSoulCode.png" height="100" alt="logo" id="logo">
+        
+
+    </header>    
+    <form action="">
+        <div>
+            <label for="campoNome" >Nome completo</label><br>
+            <input name="campoNome" id="campoNome" type="text" required placeholder="Digite seu nome" /><br>
+        <!--
+            Aula do curso SoulCode
+            form é o Container de inputs
+            required obriga o usuário a digitar no campo
+            placeholder deixa uma dica sobre o que é para escrever
+            for cria um vínculo com id 
+            name utilizado para manipular os dados
+            type é o tipo de dados do input, text, password, botão
+            label é uma descrição do input, rótulo
+            input é o campo de entrada de dados            
+        -->
+        </div>
+        <div>
+            <label for="campoEmail">E-mail</label><br>
+            <input type="email" name="campoEmail" id="campoEmail" placeholder="digite@seuemail.com" required >
+        <div>
+            <label for="campoSenha">Senha</label><br>
+            <input minlength="8" type="password" name="campoSenha" id="campoSenha" required placeholder="digite sua senha">
+        </div>    
+        <div class="botao">
+            <label for="campoProfissao">Profissão</label><br>
+            <select name="campoProfisso" id="campoProfissao" required>
+                <option value="" selected disabled>Secione uma opção</option>
+                <option value="professor">Professor</option>
+                <option value="tecnico">Técnico</option>
+                <option value="especialista">Especialista</option>
+                <option value="nda">Nenhuma das anteriores</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Idioma nativo</label><br>
+            
+            <input id="checkIngles" name="campoIdioma" value="ingles" type="radio" />
+            <label for="checkIngles">Inglês</label>
+            
+            <input id="checkEspanhol" name="campoIdioma" value="espanhol" type="radio" />
+            <label for="checkEspanhol">Espanhol</label>
+            
+            <input id="checkPortugues" name="campoIdioma" value="portugues" type="radio" />
+            <label for="checkPortugues">Português</label>
+        </div>
+        <div>
+            <label for="campoResumo">Fale sobre você</label><br>
+            <textarea name="campoResumo" id="campoResumo" maxlength="150" cols="30" rows="5" placeholder="Descreva sua vida profissional"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="concordaTermos" id="checkTermos" required />
+            <label for="checkTermos">Concordo com os termos de serviço</label>
+        </div>
+        <hr />
+        <button type="submit" onclick="alert('Obrigado pelo Cadastro!')">Enviar</button>
+        <button type="reset">Limpar</button>
+        <button type="button" onclick="alert('Oie')">Outra ação</button>
+    </form>
+</body>
+</html>
