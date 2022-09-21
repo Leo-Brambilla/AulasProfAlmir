@@ -8,30 +8,46 @@ body{
     
 }
 table{
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    text-align: center;
+    
+    text-align: left;
     justify-content: justify;
     display: flow-root;
     position: relative;
-
-
     
+}
+tbody{
+    align-items: center;
 }
 .corpo{
     text-align: center;
 }
 .rodape{
-    padding: 200px;
+    max-block-size: 0%;
+    margin-top: 200px;
+    padding: 50px;
     align-items: center;
     font-family: caveat;
+    background:#0F637A;
+    color: white;
+    
 }
 .conteudo{
-    align-items: center;
+    
+
     
 }
 .tabela{
     align-items: center;
     border: 0.5;
+}
+.cabecalho{
+    
+    background: #0F637A;
+}
+.cabecalho img{
+    margin-right: 900px;
+}
+.tabela{
+    margin-left: 500px
+    ;
 }
