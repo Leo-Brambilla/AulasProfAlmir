@@ -1,124 +1,94 @@
-body{   
-    padding: 0;
-    margin: 0;
-    font-family: caveat;        
-    background:#ffffff;
-    background-size: 400% 400%;    
-    display: block;
-}
-
-table{
-    box-shadow: 5px 5px 5px 0.1px;
-    background: white;       
+*{
+    box-sizing: border-box;
     
 }
-#eng-dados{    
-    align-items: center;
-    text-align: left;
-    justify-content: justify;    
-    border: 10px;        
-    border-collapse: collapse;    
-    
+header{
+    background: #0F637A;  
 }
-#tabela{
-    padding-left: 10px;
-    align-items: center;
-    text-align: left;
-    justify-content: justify;    
-    border: unset;        
-    border-collapse: collapse;  
-    display: block;
-    
-    
-    
+#cabecalho img{
+    padding: 60px 0px 60px 92px ;
 }
-#tabela-container{
-    
-    margin-right: 40px;
-    border: 1px;   
-    float: right;
-    display: block;
-
-}
-mg#logo{
-    display: block;
-    margin-left: 80px;
-    margin-top: 0;
+form{    
     padding-top: 20px;
-}
-
-tr .price{
-    color: #008CB1;
-    font-size: 24px;
-    font-weight: 800;
-}
-p .texto-rodape{
-        color: #ffffff;
-        
-}
-p{    
-    color:#302e2eb3;
-    text-align: justify;
-    
-}
-h1{
-    padding-left: 92px;
-    text-align: justify;
-    color: black;
-}
-td{
-    color: black;
-    border: none;
-    display: block inline;    
-    
-}
-tr{
-    border: 1;    
-    margin-left: 500px;
-    
-    
-}
-tr.bt1{
-    text-align: center;
+    margin-right: 92px;    
+    border-style: none;
     align-items: center;
+    color: #ffffff;
+    float: right;
 }
-.btn{    
-    padding: 20px 20px 20px 20px;
-    background: #FFD900;
-    border: none;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
-    border-radius: 10px 10px 10px 10px;
-    font-size: 12px;    
-    text-align: center;
-    letter-spacing: 1px;
+input{
+    margin: 5px 5px 5px 5px;
+}
+.login{
+    margin: 5px auto 5px auto;
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(219, 182, 18);
+    border-radius: 10%;    
+    font-size: 10pt;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    border-style: none;    
     text-decoration: none;
 }
-
-.cabecalho{
-    
-    background: #0F637A;
-}
-.cabecalho img{
-    padding: 5px 5px 25px 5px;
-    margin-left: 92px;
-    margin-top: 20px;
-    height: 40px;
-    
-}
-.rodape{
-    max-block-size: 0%;
-    margin-top: 200px;
-    padding: 50px;
-    align-items: center;
-    font-family: caveat;
-    background:#0F637A;
-    color: #ffffff;
-    
-}
-section#corpo{
-    margin-left: 92px;
-    display: block;
-    width: 500px;    
+section#artigo1 {
+    padding: 5px 5px 5px 92px;    
     float: left;
-    border-right: 1px solid #ffffff;
+    max-width: 900px;
 }
+article#tabela1 {
+    background: #ffffff64;
+    padding: 5px 5px 5px 5px;
+    margin-top: 100px;
+    margin-right: 500px;
+    float: right;   
+    size: 20pt;
+    box-shadow: 1px 1px 1px 0.5px;
+    border: solid #ffffff67;       
+}
+section#artigo2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5px 5px 5px 92px;    
+    float: left;
+    max-width: 900px;
+}
+article#tabela2 {
+    padding: 5px 5px 5px 5px; 
+    margin-top: 150px;   
+    margin-right: 500px;
+    float: right;   
+    size: 20pt;
+    box-shadow: 1px 1px 1px 0.5px;
+    border: solid #ffffff67;
+
+}
+.btn{
+    margin: 5px auto 5px auto;
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(219, 182, 18);
+    border-radius: 5%;    
+    font-size: 10pt;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    border-style: none;    
+    text-decoration: none;
+    align-items: center;
+}
+td{
+    padding: 10px 10px 10px 50px;
+    font-size: 15pt;
+    word-spacing: 5px;
+}
+tr{    
+    font-size: 15pt;
+    white-space: 5px;
+}
+footer{
+    background:  #0F637A;    
+    color: #ffffff;
+    margin-top: 980px;     
+    align-items: center; 
+    padding: 60px 0px 60px 900px ;
+}
+
+

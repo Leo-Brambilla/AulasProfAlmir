@@ -4,11 +4,12 @@ body {
     padding: 0;
     margin: 0;
     font-family: caveat;    
-    background: linear-gradient(-180deg,#b90b0b, #000000, #f8f8f8, #b90b0b);
     background-size: 399% 399%;
-    animation: backgroundTransition 5s ease-in-out infinite;
+    
+   
 }
 /*HEADER*/
+
 div#res p{
     font-family: caveat;
     font-size: 20pt;
@@ -18,15 +19,17 @@ div#res p{
 }
 .header-wrapper {
     height: 100vh;
-    width: 100%;
-    background: linear-gradient(180deg,#b90b0b, #000000, #f8f8f8, #b90b0b);
-    background-size: 400% 400%;
+    width: 100%;   
+    
+    background-size: 140% 140%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    animation: backgroundTransition 5s ease-in-out infinite;
+    animation: backgroundTransition 15s ease-out alternate infinite;
+    background-image: url(./img/backIbira.png)
+    
 }
 h1 {
     text-transform: uppercase;
@@ -37,14 +40,14 @@ h1 a{
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 4px;
-    color: #ffffff;
+    color:#ffffff;
     transition: -5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 
 }
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #ffffff;
+    color:#ffffff;
 }
 .social-media {
     margin-top: 1rem;
@@ -55,7 +58,7 @@ h2 {
     color: #ffffff;
     font-size: 24px;
     padding: 1rem 4rem;
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffff;    
     min-width: 4rem;
     display: flex;
     justify-content: center;
