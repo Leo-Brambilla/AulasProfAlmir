@@ -2,8 +2,27 @@
     box-sizing: border-box;
     
 }
+body{
+    background: white;
+}
+a{
+    text-decoration: none;
+}
 header{
+    width: 100%;
+    height: 160px;
     background: #0F637A;  
+    margin-top: 0;
+    
+}
+button{
+    background-color: rgb(206, 200, 21);
+    border: none;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 6% 6% 6% 6%;
+    margin: 6px 4px;
+    cursor: pointer;/*altera o icone do mouse*/
 }
 #cabecalho img{
     padding: 60px 0px 60px 92px ;
@@ -19,74 +38,62 @@ form{
 input{
     margin: 5px 5px 5px 5px;
 }
-.login{
-    margin: 5px auto 5px auto;
-    padding: 10px 10px 10px 10px;
-    background-color:rgb(219, 182, 18);
-    border-radius: 10%;    
-    font-size: 10pt;    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-transform: uppercase;
-    border-style: none;    
-    text-decoration: none;
-}
 section#artigo1 {
     padding: 5px 5px 5px 92px;    
     float: left;
-    max-width: 900px;
+    max-width: 500px;
+    
 }
 article#tabela1 {
     background: #ffffff64;
     padding: 5px 5px 5px 5px;
-    margin-top: 100px;
-    margin-right: 500px;
+    margin-top: 220px;
     float: right;   
     size: 20pt;
     box-shadow: 1px 1px 1px 0.5px;
-    border: solid #ffffff67;       
+    border: 1px solid #ddd;     
 }
 section#artigo2 {
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 5px 5px 5px 92px;    
-    float: left;
-    max-width: 900px;
+    float: right;
+    max-width: 500px;
+    
+    
 }
 article#tabela2 {
-    padding: 5px 5px 5px 5px; 
-    margin-top: 150px;   
-    margin-right: 500px;
-    float: right;   
-    size: 20pt;
+ 
+    margin-top: 250px;       
+    float: left;       
     box-shadow: 1px 1px 1px 0.5px;
-    border: solid #ffffff67;
+    border: 1px solid #ddd;
 
 }
-.btn{
-    margin: 5px auto 5px auto;
-    padding: 10px 10px 10px 10px;
-    background-color:rgb(219, 182, 18);
-    border-radius: 5%;    
-    font-size: 10pt;    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-transform: uppercase;
-    border-style: none;    
-    text-decoration: none;
-    align-items: center;
+table{
+    
+    border-collapse: collapse;
+    margin: auto;
+    align-items: left;
+    text-align:left;
 }
 td{
     padding: 10px 10px 10px 50px;
-    font-size: 15pt;
-    word-spacing: 5px;
+    font-size: 15pt;    
+    text-decoration: none;
 }
 tr{    
     font-size: 15pt;
     white-space: 5px;
+    text-decoration: none;
 }
-footer{
-    background:  #0F637A;    
-    color: #ffffff;
-    margin-top: 980px;     
-    align-items: center; 
-    padding: 60px 0px 60px 900px ;
+.btn{
+    padding: 5px 5px 5px 5px;
+    background: rgb(206, 200, 21);
+    text-decoration: none;
+
+}
+.price{
+    text-transform: uppercase;
+    color:#0F637A ;
 }
