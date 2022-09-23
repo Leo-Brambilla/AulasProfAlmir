@@ -1,56 +1,92 @@
-body{
-    
-    padding: 0;
-    margin: 0;
-    font-family: caveat;        
-    background-size: 400% 400%;
-    animation: backgroundTransition 1s ease-in-out infinite;    
+*{
+    box-sizing: border-box;
     
 }
-table{
-    
-    text-align: left;
-    justify-content: justify;
-    display: flow-root;
-    position: relative;
-    
+header{
+    background: #0F637A;  
 }
-tbody{
+#cabecalho img{
+    padding: 60px 0px 60px 92px ;
+}
+form{    
+    padding-top: 20px;
+    margin-right: 92px;    
+    border-style: none;
     align-items: center;
+    color: #ffffff;
+    float: right;
 }
-.corpo{
-    text-align: center;
+input{
+    margin: 5px 5px 5px 5px;
 }
-.rodape{
-    max-block-size: 0%;
-    margin-top: 200px;
-    padding: 50px;
-    align-items: center;
-    font-family: caveat;
-    background:#0F637A;
-    color: white;
-    
+.login{
+    margin: 5px auto 5px auto;
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(219, 182, 18);
+    border-radius: 10%;    
+    font-size: 10pt;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    border-style: none;    
+    text-decoration: none;
 }
-.conteudo{
-    
+section#artigo1 {
+    padding: 5px 5px 5px 92px;    
+    float: left;
+    max-width: 900px;
+}
+article#tabela1 {
+    background: #ffffff64;
+    padding: 5px 5px 5px 5px;
+    margin-top: 100px;
+    margin-right: 500px;
+    float: right;   
+    size: 20pt;
+    box-shadow: 1px 1px 1px 0.5px;
+    border: solid #ffffff67;       
+}
+section#artigo2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5px 5px 5px 92px;    
+    float: left;
+    max-width: 900px;
+}
+article#tabela2 {
+    padding: 5px 5px 5px 5px; 
+    margin-top: 150px;   
+    margin-right: 500px;
+    float: right;   
+    size: 20pt;
+    box-shadow: 1px 1px 1px 0.5px;
+    border: solid #ffffff67;
 
-    
 }
-.tabela{
+.btn{
+    margin: 5px auto 5px auto;
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(219, 182, 18);
+    border-radius: 5%;    
+    font-size: 10pt;    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    border-style: none;    
+    text-decoration: none;
     align-items: center;
-    border: 0.5;
 }
-.cabecalho{
-    
-    background: #0F637A;
+td{
+    padding: 10px 10px 10px 50px;
+    font-size: 15pt;
+    word-spacing: 5px;
 }
-.cabecalho img{
-    margin-right: 900px;
+tr{    
+    font-size: 15pt;
+    white-space: 5px;
 }
-.tabela{
-    margin-left: 500px
-    ;
-}
-.card-container{
-    background: black;
+footer{
+    background:  #0F637A;    
+    color: #ffffff;
+    margin-top: 980px;     
+    align-items: center; 
+    padding: 60px 0px 60px 900px ;
 }
