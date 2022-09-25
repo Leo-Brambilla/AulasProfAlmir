@@ -188,6 +188,19 @@ a:hover {
     visibility: visible;
     opacity: 1;
 }
+.introducao {
+    width: 40%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+}
+.introducao p{
+    position: relative;
+    border: 1px solid #ffffff;
+}
 /*CARDS*/
 .container {
     width: 100%;
@@ -206,50 +219,50 @@ a:hover {
 }
 
 .card1 {
-    height: 300px;
-    width: 450px;
+    height: 400px;
+    width: 600px;
     margin: 3rem 0 0;
-    background-image: url("/img/parquedoIbirapuera.jpg");
+    background-image: url("./img/parquedoIbirapuera.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(0.1);
+    filter: grayscale(0.5);
     color: #ffffff;
     cursor: pointer;
     transition: 0.3s;
 }
 .card2 {
-    height: 300px;
-    width: 450px;
+    height: 400px;
+    width: 600px;
     margin: 3rem 0 0;
-    background-image: url("/img/catedralDaSé.jpg");
+    background-image: url("./img/avPaulista.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(0.1);
+    filter: grayscale(0.5);
     color: #ffffff;
     cursor: pointer;
     transition: 0.3s;
 }
 .card3 {
-    height: 300px;
-    width: 450px;
+    height: 400px;
+    width: 600px;
     margin: 3rem 0 0;
-    background-image: url("");
+    background-image: url("./img/catedralDaSé.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(0.1);
-    color: #ffffff;
+    filter: grayscale(0.5);
+    color: #ffffff1f;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -265,7 +278,7 @@ a:hover {
     width: 40%;
     font-family: sans-serif;
     letter-spacing: 1px;
-    color: black;
+    color: rgb(109, 109, 109);
 }
 .card-wrapper::before { 
     content: "";
@@ -273,7 +286,7 @@ a:hover {
     height: 100px;
     width: 100px;
     display: block;
-    border: 1px solid #ffffff;
+    border: 3px solid rgb(197, 29, 29);
     opacity: 0;
     transition: 0.3s;
 }
@@ -283,27 +296,58 @@ a:hover {
     letter-spacing: 4px;
     margin: 0;
     transition: 0.3s;
+    color: rgb(197, 29, 29);
 }
 .card-wrapper p {
     font-size: 0;
     visibility: hidden;
-    opacity: 0;
+    opacity: 5px;
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.3s;
+    color: #b90b0b;
 }
-.card:hover {
+.card1:hover {
     filter: unset;    
 }
-.card:hover > .card-wrapper::before {
-    opacity: 1;
-    width: 350px;
-    height: 250px;
+.card1:hover > .card-wrapper::before {
+    opacity: 500;
+    width: 560px;
+    height: 350px;
+    
 }
-.card:hover > .card-wrapper p {
-    opacity: 1;
+.card1:hover > .card-wrapper p {
+    opacity: 2;
     visibility: visible;
-    font-size: 14px;
+    font-size: 30px;
+}
+.card2:hover {
+    filter: unset;    
+}
+.card2:hover > .card-wrapper::before {
+    opacity: 2;
+    width: 500px;
+    height: 350px;
+    
+}
+.card2:hover > .card-wrapper p {
+    opacity: 2;
+    visibility: visible;
+    font-size: 30px;
+}
+.card3:hover {
+    filter: unset;    
+}
+.card3:hover > .card-wrapper::before {
+    opacity: 2;
+    width: 500px;
+    height: 350px;
+    
+}
+.card3:hover > .card-wrapper p {
+    opacity: 2;
+    visibility: visible;
+    font-size: 30px;
 }
 /*FOOTER*/
 .footer {
